@@ -42,13 +42,13 @@ li {
 
 .COACHTECH__about__content {
   position: absolute;
-  top: 47vh;
+  top: 43vmax;
   width: 70vw;
   height: 10vh;
   background-color: #000080;
 }
 .COACHTECH__about__img img {
-  max-width: 100%;
+  max-width: 50vw;
 }
 .COACHTECH__about__img {
   position: absolute;
@@ -60,6 +60,6 @@ li {
 }
 .COACHTECH__about__content-ttl {
   position: absolute;
-  top: 36vh;
+  top: 32vmax;
   font-weight: lighter;
 }
