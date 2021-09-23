@@ -3,7 +3,7 @@
 }
 .COACHTECH__header {
   width: 100%;
-  padding: 30px 4% 10px;
+  padding: 30px 1% 10px;
   position: fixed;
   top: 0;
   display: flex;
@@ -11,8 +11,7 @@
   box-sizing: border-box;
 }
 h1 {
-  margin: 0;
-  padding: 0;
+  margin: 0 50px 0 0;
   font-size: 3vmax;
   color: #000080;
 }
@@ -41,8 +40,7 @@ li {
 }
 
 .COACHTECH__about__content {
-  position: absolute;
-  top: 43vmax;
+  margin: -5vmax 0;
   width: 70vw;
   height: 10vh;
   background-color: #000080;
@@ -51,15 +49,16 @@ li {
   max-width: 50vw;
 }
 .COACHTECH__about__img {
-  position: absolute;
-  right: 0;
+  position: relative;
+  left: 50vmax;
   width: 50vw;
   height: 50vh;
   top: 15vh;
   z-index: 2;
+  display: block;
 }
 .COACHTECH__about__content-ttl {
   position: absolute;
-  top: 32vmax;
+  top: 30vmax;
   font-weight: lighter;
 }
