@@ -1,0 +1,66 @@
+
+.COACHTECH__header {
+  width: 100%;
+  padding: 30px 4% 10px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #000080;
+}
+a {
+  text-decoration: none;
+  color: #000080;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li {
+  margin: 0 0 0 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.COACHTECH__header__nav {
+  margin: 0 0 0 auto;
+}
+
+.COACHTECH__about {
+  position: relative;
+  width: 100vh;
+  font-size: 30px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.COACHTECH__about__content {
+  position: absolute;
+  top: 330px;
+  width: 70vh;
+  height: 10vh;
+  background-color: #000080;
+}
+.COACHTECH__about__img img {
+  max-width: 100%;
+}
+.COACHTECH__about__img {
+  position: absolute;
+  right: 0;
+  width: 50vh;
+  height: 50vh;
+  top: 100px;
+  z-index: 2;
+}
+.COACHTECH__about__content-ttl {
+  position: absolute;
+  top: 190px;
+  font-weight: lighter;
+
+}
