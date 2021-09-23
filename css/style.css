@@ -1,5 +1,5 @@
 .COACHTECH {
-  width: 100vw;
+  overflow: hidden;
 }
 .COACHTECH__header {
   width: 100%;
@@ -21,17 +21,16 @@ a {
 }
 ul {
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 50vmax;
   display: flex;
+  justify-content: right;
 }
 li {
-  margin: 0 0 0 15px;
+  margin: 0 0 0 1vmax;
   font-size: 1vmax;
-  font-weight: bold;
+  font-weight: bolder;
 }
-.COACHTECH__header__nav {
-  margin: 0 0 0 auto;
-}
+
 
 .COACHTECH__about {
   position: relative;
@@ -40,26 +39,25 @@ li {
 }
 
 .COACHTECH__about__content {
-  margin: -5vmax 0;
-  width: 70vw;
+  margin: 15vmax 0;
+  width: 68vw;
   height: 10vh;
   background-color: #000080;
 }
 .COACHTECH__about__img img {
-  max-width: 50vw;
+  max-width: 49vw;
 }
 .COACHTECH__about__img {
-  position: relative;
-  left: 50vmax;
+  position: absolute;
+  left: 52vmax;
   width: 50vw;
   height: 50vh;
-  top: 15vh;
+  top: -25vh;
   z-index: 2;
   display: block;
-  vertical-align: top;
 }
 .COACHTECH__about__content-ttl {
-  position: absolute;
-  top: 30vmax;
+  margin: 36vmax 0 -14vmax;
+  top: 29vmax;
   font-weight: lighter;
 }
