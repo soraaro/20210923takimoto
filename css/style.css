@@ -56,6 +56,7 @@ li {
   top: 15vh;
   z-index: 2;
   display: block;
+  vertical-align: top;
 }
 .COACHTECH__about__content-ttl {
   position: absolute;
