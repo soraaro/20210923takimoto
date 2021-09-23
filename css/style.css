@@ -34,7 +34,6 @@ li {
 
 .COACHTECH__about {
   position: relative;
-  width: 100vh;
   font-size: 30px;
   box-sizing: border-box;
   display: block;
@@ -42,7 +41,7 @@ li {
 
 .COACHTECH__about__content {
   position: absolute;
-  top: 330px;
+  top: 40vh;
   width: 70vh;
   height: 10vh;
   background-color: #000080;
@@ -55,12 +54,12 @@ li {
   right: 0;
   width: 50vh;
   height: 50vh;
-  top: 100px;
+  top: 10vh;
   z-index: 2;
 }
 .COACHTECH__about__content-ttl {
   position: absolute;
-  top: 190px;
+  top: 25vh;
   font-weight: lighter;
 
 }
